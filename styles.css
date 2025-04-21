@@ -1,1 +1,122 @@
 /* your code here */
+.main{
+	background-color:lightgreen;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	padding:10px
+}
+
+.controls{
+	display:flex;
+	justify-content:space-between;
+}
+
+.product__photo{
+	padding-bottom:20px;
+}
+
+.photo-main{
+	background-color:lightgreen;
+	padding:20px;
+}
+.photo-album-list{
+	display:flex;
+	list-style:none;
+	
+}
+.main--apple{
+	width:260px
+}
+
+.product__photo{
+	margin-bottom:10px;
+}
+
+.photo-album-list li:first-child{
+	border:1px solid black
+}
+
+.product__photo{
+	width:300px;
+	background-color:white;
+	height:450px
+}
+
+.title h1{
+    font-family: sans-serif;
+	line-height:4px
+}
+.title span{
+    font-family: sans-serif;
+	color:grey;
+}
+
+.price{
+	color:red;
+	font-size:30px;
+	padding:20px;
+	padding-left:0px;
+}
+
+.variant{
+    font-family: sans-serif;
+}
+
+.variant h3{
+  font-family: sans-serif;
+	color:grey;
+}
+
+.description h1{
+  font-family: sans-serif;
+	color:grey;
+}
+
+.description ul{
+	font-size:15px;
+}
+
+.variant ul li:first-child{
+	border:1px solid black;
+}
+
+.variant ul{
+    display:flex;
+	list-style-type:none;
+	gap:10px
+}
+
+
+.addToCart{
+	background-color:red;
+	border:none;
+	color:white;
+	padding:10px;
+	border-radius10px
+}
+
+.product{
+	display:flex;
+	gap:20px;
+	/* padding:200px; */
+	display:flex;
+	background-color:white;
+	border-radius:10px;
+	width:50%;
+	padding:50px;
+	position:relative;
+}
+.product__photo{
+	position:absolute;
+	left:-25%;
+	box-shadow:0px 0px 5px 0px;
+	border-radius:20px;
+}
+
+.product__info{
+	background-color:white;
+	height:450px;
+	padding:10px;
+	margin-left:25%;
+}

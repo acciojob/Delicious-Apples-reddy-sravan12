@@ -4,15 +4,16 @@
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title></title>
-	<meta name="description" content="">
+	<title>Apple Cart</title>
+	<meta name="description" content="Apple Cart">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="/styles.css">
 </head>
 
 <body>
-	<section class="product">
+	<div class='main'>
+		<section class="product">
 		<div class="product__photo">
 			<div class="photo-container">
 				<div class="photo-main">
@@ -21,10 +22,10 @@
 						<i class="fa fa-heart-o"></i>
 					</div>
 					<img src="https://res.cloudinary.com/john-mantas/image/upload/v1537291846/codepen/delicious-apples/green-apple-with-slice.png"
-						alt="green apple slice">
+					class='main--apple'	alt="green apple slice">
 				</div>
 				<div class="photo-album">
-					<ul>
+					<ul class="photo-album-list">
 						<li><img src="https://res.cloudinary.com/john-mantas/image/upload/v1537302064/codepen/delicious-apples/green-apple2.png"
 								alt="green apple"></li>
 						<li><img src="https://res.cloudinary.com/john-mantas/image/upload/v1537303532/codepen/delicious-apples/half-apple.png"
@@ -59,10 +60,19 @@
 				</ul>
 			</div>
 			<div class="description">
-				
+				<h1>BENEFITS</h1>
+                <ul>
+					<li>Apples are nutrious</li>
+                    <li>Apples are nutrious</li>
+					<li>Apples are nutrious</li>
+					<li>Apples are nutrious</li>
+				</ul>
+				<button class='addToCart'>ADD TO CART</button>
 			</div>
 		</div>
 	</section>
+	</div>
+	
 </body>
 
 </html>
